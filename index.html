@@ -49,13 +49,23 @@
             var publisher = xmlDoc.getElementsByTagName("publisher");
             var genres = xmlDoc.getElementsByTagName("genres");
 
-            for (i = 0; i< games.length; i++) {
+            for (i = 0; i< name.length; i++) {
                 txt += `
                     <tr>
                         <td>${name[i].childNodes[0].nodeValue}</td>
                         <td>${playermode[i].childNodes[0].nodeValue}</td>
                         <td>${developer[i].childNodes[0].nodeValue}</td>
                         <td>${publisher[i].childNodes[0].nodeValue}</td>
+                        <td>
+                            <ul>`;
+                                var list = "";
+                                for(a = 0; a < genres.length;a++){
+                                    list += `<li>${genres[i].children[a].childNodes[0].nodeValue}</li>`;
+                                }
+                txt +=`
+                                ${list}
+                            </ul>
+                        </td>
                     </tr>
                 `;                
             }
