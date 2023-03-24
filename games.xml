@@ -1,0 +1,68 @@
+<?xml version= "1.0" encoding ="UTF-8"?>
+<games>
+    <game>
+        <name>Marvel Spiderman</name>
+        <playermode>Single Player</playermode>
+        <developer>Insomniac Games</developer>
+        <publisher>Sony Interactive Entertainment</publisher>
+        <genres>
+            <genre>Action</genre>
+            <genre>Adventure</genre>
+            <genre>Free-Roam</genre>
+            <genre>Open-World</genre>
+            <genre>Figthing</genre>
+        </genres>
+    </game>
+    <game>
+        <name>Hogwarts Legacy</name>
+        <playermode>Single Player</playermode>
+        <developer>Avalanche Software</developer>
+        <publisher>Warner Bros. Games</publisher>
+        <genres>
+            <genre>Action</genre>
+            <genre>Adventure</genre>
+            <genre>Magic</genre>
+            <genre>Fantasy</genre>
+            <genre>Open-World</genre>
+        </genres>
+    </game>
+    <game>
+        <name>Valorant</name>
+        <playermode>Multiplayer</playermode>
+        <developer>Riot Games</developer>
+        <publisher>Riot Games</publisher>
+        <genres>
+            <genre>Tactical-Shooter</genre>
+            <genre>First Person Shooter</genre>
+            <genre>Action</genre>
+            <genre>Team-Based Game</genre>
+            <genre>Competitive Game</genre>
+        </genres>
+    </game>
+    <game>
+        <name>League of Legends</name>
+        <playermode>Multiplayer</playermode>
+        <developer>Riot Games</developer>
+        <publisher>Riot Games</publisher>
+        <genres>
+            <genre>Action</genre>
+            <genre>Multiplayer Online Battle Arena</genre>
+            <genre>Magic</genre>
+            <genre>Fantasy</genre>
+            <genre>Team-Based Game</genre>
+        </genres>
+    </game>
+    <game>
+        <name>Call of Duty Warzone</name>
+        <playermode>Multiplayer</playermode>
+        <developer>Raven Software</developer>
+        <publisher>Activision</publisher>
+        <genres>
+            <genre>Tactical-Shooter</genre>
+            <genre>First Person Shooter</genre>
+            <genre>Action</genre>
+            <genre>Team-Based Game</genre>
+            <genre>Battle Royale</genre>
+        </genres>
+    </game>
+</games>
